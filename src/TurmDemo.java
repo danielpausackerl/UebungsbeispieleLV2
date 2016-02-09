@@ -27,10 +27,10 @@ public class TurmDemo {
 		while (counter <= 9) {
 			System.out.println(startZahl + " / " + counter + " = " + (startZahl / counter));
 			startZahl = startZahl / counter;
-
-			// startZahl /= counter; wäre die kürzere Schreibweise
-
 			counter++;
+
+			// startZahl /= counter++; wäre die kürzere Schreibweise
+
 		}
 	}
 }
